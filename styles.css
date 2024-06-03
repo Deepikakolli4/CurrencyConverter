@@ -1,0 +1,179 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: #1B2845;
+    font-family: cursive;
+    color:white;
+    display: flex;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    min-width: 50vh;
+    background-color:white;
+    color: black;
+    padding:50px;
+    margin-left:500px;
+    margin-top: 80px;
+    border-radius: 10%;
+}
+h4{
+    padding-top: 0px;
+    padding-bottom: 3px;
+    text-align: center;
+    align-items: center;
+}
+form {
+    margin : 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown select{
+    border:none;
+    outline: none;
+}
+.from,.to {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+}
+p{
+    padding: 5px;
+}
+.button{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+button{
+    padding: 20px;
+    background-color: grey;
+    border-radius: 5px;
+}
+.container select{
+    padding:1rem;
+    border-radius: 2px;
+}
+.amount input{
+    padding:2rem;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+}
+/* Media Queries */
+@media only screen and (max-width: 1440px) {
+    /* For larger laptops including MacBook models */
+    .box {
+        width: 50%; /* Adjust width for larger screens */
+        margin-left: calc(50% - 25%);
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    /* For laptops and smaller screens */
+    .box {
+        width: 60%; /* Adjust width for laptops */
+        margin-left: calc(50% - 30%);
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For smaller laptops and tablets */
+    .box {
+        width: 70%; /* Adjust width for smaller laptops and tablets */
+        margin-left: calc(50% - 35%);
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /* For devices with width up to 900px */
+    .box {
+        width: 80%; /* Adjust width for devices with width up to 900px */
+        margin-left: calc(50% - 40%);
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    /* For devices with width up to 800px */
+    .box {
+        width: 90%; /* Adjust width for devices with width up to 800px */
+        margin-left: calc(50% - 45%);
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For tablets and smaller screens */
+    .box {
+        width: 80%; /* Adjust width for tablets */
+        margin-left: calc(50% - 40%);
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .button {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* For devices with width up to 600px */
+    .box {
+        width: 95%; /* Adjust width for devices with width up to 600px */
+        margin-left: calc(50% - 47.5%);
+        margin-top: 30px;
+        padding: 25px;
+    }
+
+    .button {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* For smaller devices including mobile phones */
+    .box {
+        width: 90%; /* Adjust width for smaller devices */
+        margin-left: calc(50% - 45%);
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .button {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /* For iPhones and similar devices */
+    .box {
+        width: 95%; /* Adjust width for iPhones */
+        margin-left: calc(50% - 47.5%);
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .button {
+        padding: 10px;
+    }
+}
